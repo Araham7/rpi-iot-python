@@ -8,6 +8,7 @@ This repository contains source code and documentation for interfacing different
 - [Supported Sensors & Displays](#supported-sensors--displays)
 - [Code Structure](#code-structure)
 - [Usage](#usage)
+- [Images](#images)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -49,7 +50,7 @@ The following modules are supported:
 
 ## Code Structure
 ```
-raspberrypi-sensors/
+rpi-iot-python/
 ├── 01-Interacting-OLED-DISPLAY-using-python
 │   ├── 01-oled_hello_world.py
 │   ├── 02-digital_clock_oled.py
@@ -107,6 +108,11 @@ Run individual scripts as per your requirement. For example:
    python3 ./01-Interacting-OLED-DISPLAY-using-python/01-oled_hello_world.py
    ```
 
+## Images
+Below is an example of a QR code generated and displayed on the OLED screen:
+
+![QR Code on OLED Display](./IMAGES/QR_code.jpeg)
+
 ## Troubleshooting
 - Ensure the necessary I2C/SPI interfaces are enabled on Raspberry Pi.
 - Check wiring connections and GPIO pin assignments.
@@ -116,6 +122,7 @@ Run individual scripts as per your requirement. For example:
 Feel free to contribute by submitting pull requests, reporting issues, or suggesting improvements.
 
 ## License  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [MIT License](LICENSE).
+
 
 
