@@ -21,8 +21,8 @@ This repository contains source code and documentation for interfacing different
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/raspberrypi-sensors.git
-   cd raspberrypi-sensors
+   git clone https://github.com/Araham7/rpi-iot-python.git
+   cd rpi-iot-python
    ```
 <!-- 2. Install required dependencies:
    ```bash
